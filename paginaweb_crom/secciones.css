@@ -1,0 +1,103 @@
+@import url("estilo.css");
+
+/* seccion servicios */
+.tituloservicios{
+  background-image: url("imagenes/foto_slide_servicios.jpg");
+  background-size: cover;
+  height: 290px;
+  color: white;
+}
+.tituloservicios h2{
+  padding-top:80px;
+  padding-left: 15px;
+}
+.tituloservicios hr{
+  margin-left:15px;
+}
+
+/* seccion proyectos */
+.tituloproyectos{
+  background-image: url("imagenes/foto_slide_proyectos.jpg");
+  background-size: cover;
+  height: 290px;
+  color: white;
+}
+.tituloproyectos h2{
+  padding-top:80px;
+  padding-left: 15px;;
+}
+.tituloproyectos hr{
+  margin-left:15px;
+}
+
+/* seccion contactanos */
+.titulocontactanos{
+  background-image: url("imagenes/foto_slide_contactanos.jpg");
+  background-size: cover;
+  height: 290px;
+  color: white;
+}
+.titulocontactanos h2{
+  padding-top:80px;
+  padding-left: 15px;;
+}
+.titulocontactanos hr{
+  margin-left:15px;
+}
+#contactanos{
+  margin-top: 30px;
+  background-color: var(--morado);
+  padding: 15px;
+}
+#elem_contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+#descrip2{
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+#elementos_izquierda{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#elementos_izquierda input{
+  border-radius: 10px;
+  padding: 20px;
+  border: 0px;
+  font-size: 15px;
+  box-shadow: 0px 0px 5px #c7c7c7;
+  margin-bottom: 20px;
+  width: 95%;
+  border:1px #333 solid;
+}
+#elementos_izquierda p{
+  padding-bottom: 20px;
+}
+.elem{
+  width: 90%;
+}
+
+#elementos_derecha{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#elementos_derecha textarea{
+  border:1px #333 solid;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+  font-size: 15px;
+  box-shadow: 0px 0px 5px #c7c7c7;
+  margin-bottom: 20px;
+}
+button{
+  border:0;
+}
